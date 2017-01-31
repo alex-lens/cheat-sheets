@@ -2,6 +2,14 @@
 
 `find / -type f -size +1000M`
 
+
+#### Avoiding SSH timeouts
+
+create file: ~/.ssh/config with content:
+
+`Host *
+ ServerAliveInterval 60`
+
 #### Kill all on port 80
 
 `fuser -k -n tcp 80`
