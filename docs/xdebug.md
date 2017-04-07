@@ -9,15 +9,15 @@
 
 ### For cli debug from Vagrant
 
-export XDEBUG_CONFIG="idekey=PHPSTORM" 
-export PHP_IDE_CONFIG="serverName=yourDomainThere.loc"
+`export XDEBUG_CONFIG="idekey=PHPSTORM" `
+`export PHP_IDE_CONFIG="serverName=yourDomainThere.loc"`
 
 - cli config must look like:
 
-zend_extension=xdebug.so
+`zend_extension=xdebug.so
 xdebug.remote_enable = on
 xdebug.remote_connect_back = on
-xdebug.remote_host = 10.0.2.2
+xdebug.remote_host = 10.0.2.2`
 
 
 
