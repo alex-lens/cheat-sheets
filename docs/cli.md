@@ -30,6 +30,7 @@ create file: ~/.ssh/config with content:
 
 - `wget -r -p -e robots=off http://www.example.com`
 - `wget -r -k -l 7 -p -E -nc http://site.com/`
+- `wget -mkEpnp -e robots=off`
 
 
 
